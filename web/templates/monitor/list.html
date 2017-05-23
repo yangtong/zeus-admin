@@ -1,0 +1,46 @@
+ {% extends "monitor/layout.html" %}
+ {% block content %}
+        <div class="wrapper wrapper-content animated fadeInRight">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>Openstack Monitor Top List</h5>
+                        </div>
+                        <div class="ibox-content">
+                        <div id="nestable-menu">
+                            {% for k,v in data.item_kv %}
+                            <button class="btn btn-white btn-sm" onclick="location.href='{{ url_for('monitor_list_get', hg=data.hg, k_id=k, p=1, limit=10) }}'" type="button">{{ v }}</button>
+                            {% endfor %}
+                        </div>
+                            <table data-filter="#filter" data-page-size="5" class="footable table table-stripped default footable-loaded">
+                                <thead>
+                                <tr class="footable-visible">
+                                    {% for v in data.tbl_name %}<th style="text-align:center" >{{ v }}</th>{% endfor %}
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {% for v in data.vs %}
+                                <tr class="gradeX footable-even" style="display: table-row;">
+                                    {% for i in v %}
+                                    <td class="footable-visible">{{ i }}</td>
+                                    {% endfor %}
+                                </tr>
+                                {% endfor %}
+                                </tbody>
+                                <tfoot>
+                                <tr>
+                                    <td colspan="5" class="footable-visible">
+                                        {% import "blocks.html" as blocks %}
+                                        {{ blocks.pager('/monitor/toplist/'+data.k_id+'/'+data.hg+'?', data.total, data.limit, data.page) }}
+                                    </td>
+                                </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endblock %}

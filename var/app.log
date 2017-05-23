@@ -1,0 +1,92 @@
+[warning] No module named local_config
+SELECT name FROM groups WHERE name REGEXP "^openstack-|^(buy|cdn|pro|buy|3rd|hs|gd|own)0"
+[warning] No module named local_config
+SELECT name FROM groups WHERE name REGEXP "^openstack-|^(buy|cdn|pro|buy|3rd|hs|gd|own)0"
+[warning] No module named local_config
+SELECT name FROM groups WHERE name REGEXP "^openstack-|^(buy|cdn|pro|buy|3rd|hs|gd|own)0"
+[warning] No module named local_config
+SELECT name FROM groups WHERE name REGEXP "^openstack-|^(buy|cdn|pro|buy|3rd|hs|gd|own)0"
+-10-10 11:25:23 +0000] [29086] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/gunicorn/workers/sync.py", line 130, in handle
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/gunicorn/workers/sync.py", line 171, in handle_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1836, in __call__
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1820, in wsgi_app
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1403, in handle_exception
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1817, in wsgi_app
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1477, in full_dispatch_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1381, in handle_user_exception
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1475, in full_dispatch_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1461, in dispatch_request
+  File "/letv/zeus/web/controller/home.py", line 13, in home_get
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/templating.py", line 127, in render_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 791, in get_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 765, in _load_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/loaders.py", line 113, in load
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/templating.py", line 64, in get_source
+TemplateNotFound: home/index.html
+[2015-10-10 11:25:23 +0000] [29088] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/gunicorn/workers/sync.py", line 130, in handle
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/gunicorn/workers/sync.py", line 171, in handle_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1836, in __call__
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1820, in wsgi_app
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1403, in handle_exception
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1817, in wsgi_app
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1477, in full_dispatch_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1370, in handle_user_exception
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1330, in handle_http_exception
+  File "/letv/zeus/web/__init__.py", line 64, in not_found_error
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/templating.py", line 127, in render_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 791, in get_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 765, in _load_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/loaders.py", line 113, in load
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/templating.py", line 64, in get_source
+TemplateNotFound: 404.html
+[2015-10-10 11:25:23 +0000] [29088] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/gunicorn/workers/sync.py", line 130, in handle
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/gunicorn/workers/sync.py", line 171, in handle_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1836, in __call__
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1820, in wsgi_app
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1403, in handle_exception
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1817, in wsgi_app
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1477, in full_dispatch_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1370, in handle_user_exception
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1330, in handle_http_exception
+  File "/letv/zeus/web/__init__.py", line 64, in not_found_error
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/templating.py", line 127, in render_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 791, in get_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 765, in _load_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/loaders.py", line 113, in load
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/templating.py", line 64, in get_source
+TemplateNotFound: 404.html
+[2015-10-19 16:35:29 +0000] [29086] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/gunicorn/workers/sync.py", line 130, in handle
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/gunicorn/workers/sync.py", line 171, in handle_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1836, in __call__
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1820, in wsgi_app
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1403, in handle_exception
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1817, in wsgi_app
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1477, in full_dispatch_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1381, in handle_user_exception
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1475, in full_dispatch_request
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/app.py", line 1461, in dispatch_request
+  File "/letv/zeus/web/controller/home.py", line 13, in home_get
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/templating.py", line 127, in render_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 830, in get_or_select_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 791, in get_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/environment.py", line 765, in _load_template
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/jinja2/loaders.py", line 113, in load
+  File "/letv/open-falcon/portal/env/lib/python2.6/site-packages/flask/templating.py", line 64, in get_source
+TemplateNotFound: home/index.html
+[2015-10-25 23:32:34 +0000] [29076] [INFO] Handling signal: term
+[2015-10-25 23:32:34 +0000] [29081] [INFO] Worker exiting (pid: 29081)
+[2015-10-25 23:32:34 +0000] [29086] [INFO] Worker exiting (pid: 29086)
+[2015-10-25 23:32:34 +0000] [29087] [INFO] Worker exiting (pid: 29087)
+[2015-10-25 23:32:34 +0000] [29088] [INFO] Worker exiting (pid: 29088)
+[2015-10-25 23:32:34 +0000] [29076] [INFO] Shutting down: Master

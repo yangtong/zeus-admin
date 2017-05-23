@@ -1,0 +1,17 @@
+.my-modal {
+  width:600px !important;
+  height:600px !important;
+
+  .modal-header {
+    background-color:#ccc;
+    button {
+      font-size:10px;
+    }
+  }
+  .modal-body {
+    overflow-y: hidden;
+    height: 100% !important;
+    max-height:390px !important;
+  }
+
+}
